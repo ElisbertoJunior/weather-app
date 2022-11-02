@@ -62,6 +62,7 @@ const handleCityForm = event => {
   cityForm.reset()
 }
 
+
 cityForm.addEventListener('submit', handleCityForm)
 
 showLocalStorageCity()

@@ -19,7 +19,7 @@ const showWeatherIcon = icon => {
 }
 
 const fetchCityWeatherInfo = async cityName => {
-  const [{ Key, LocalizedName }] = await getCityName(cityName).then()
+  const [{ Key, LocalizedName }] = await getCityName(cityName)
   const [{ 
     WeatherText, 
     WeatherIcon, 

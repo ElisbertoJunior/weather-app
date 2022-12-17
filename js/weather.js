@@ -18,7 +18,7 @@ const fetchData = async url => {
     return response.json()
   
   } catch ({ error, message }) {
-    alert(`Erro: ${error} ${message}`)
+    alert(`Error: ${error} ${message}`)
   }
 
 }
